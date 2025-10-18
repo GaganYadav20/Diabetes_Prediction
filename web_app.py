@@ -15,7 +15,7 @@ def predict_diabetes(input_data):
         return "The person is diabetic"
 
 def main():
-    st.title("Diabetic Prediction Web App")
+    st.title("Diabetes Prediction Web App")
 
     Pregnancies=st.text_input("Number of Pregnancies")
     Glucose=st.text_input("Glucose Level")
